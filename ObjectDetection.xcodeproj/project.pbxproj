@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF95EE1F2D8FEFE700655F5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF95EE192D8FEFE700655F5B /* Preview Assets.xcassets */; };
+		EF95EE202D8FEFE700655F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF95EE1B2D8FEFE700655F5B /* Assets.xcassets */; };
+		EF95EE212D8FEFE700655F5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95EE1C2D8FEFE700655F5B /* ContentView.swift */; };
+		EF95EE222D8FEFE700655F5B /* ObjectDetectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95EE1D2D8FEFE700655F5B /* ObjectDetectionApp.swift */; };
+		EF95EE332D8FF45500655F5B /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EF95EE322D8FF45500655F5B /* Resnet50.mlmodel */; };
+		EF95EE352D8FF4D900655F5B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95EE342D8FF4D900655F5B /* ContentViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF95EE082D8FEFDB00655F5B /* ObjectDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF95EE192D8FEFE700655F5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF95EE1B2D8FEFE700655F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF95EE1C2D8FEFE700655F5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF95EE1D2D8FEFE700655F5B /* ObjectDetectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionApp.swift; sourceTree = "<group>"; };
+		EF95EE322D8FF45500655F5B /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		EF95EE342D8FF4D900655F5B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF95EE0A2D8FEFDB00655F5B /* ObjectDetection */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ObjectDetection;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF95EE052D8FEFDB00655F5B /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		EF95EDFF2D8FEFDB00655F5B = {
 			isa = PBXGroup;
 			children = (
-				EF95EE0A2D8FEFDB00655F5B /* ObjectDetection */,
+				EF95EE1E2D8FEFE700655F5B /* ObjectDetection */,
 				EF95EE092D8FEFDB00655F5B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,27 @@
 				EF95EE082D8FEFDB00655F5B /* ObjectDetection.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF95EE1A2D8FEFE700655F5B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF95EE192D8FEFE700655F5B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF95EE1E2D8FEFE700655F5B /* ObjectDetection */ = {
+			isa = PBXGroup;
+			children = (
+				EF95EE1C2D8FEFE700655F5B /* ContentView.swift */,
+				EF95EE342D8FF4D900655F5B /* ContentViewModel.swift */,
+				EF95EE1D2D8FEFE700655F5B /* ObjectDetectionApp.swift */,
+				EF95EE322D8FF45500655F5B /* Resnet50.mlmodel */,
+				EF95EE1B2D8FEFE700655F5B /* Assets.xcassets */,
+				EF95EE1A2D8FEFE700655F5B /* Preview Content */,
+			);
+			path = ObjectDetection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +87,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF95EE0A2D8FEFDB00655F5B /* ObjectDetection */,
 			);
 			name = ObjectDetection;
 			packageProductDependencies = (
@@ -109,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF95EE1F2D8FEFE700655F5B /* Preview Assets.xcassets in Resources */,
+				EF95EE202D8FEFE700655F5B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF95EE352D8FF4D900655F5B /* ContentViewModel.swift in Sources */,
+				EF95EE212D8FEFE700655F5B /* ContentView.swift in Sources */,
+				EF95EE332D8FF45500655F5B /* Resnet50.mlmodel in Sources */,
+				EF95EE222D8FEFE700655F5B /* ObjectDetectionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +286,7 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ObjectDetection app would like to access your Photo Library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +316,7 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ObjectDetection app would like to access your Photo Library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
